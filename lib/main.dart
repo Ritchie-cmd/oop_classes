@@ -1,5 +1,5 @@
-import 'coffee.dart';
+import 'animal.dart';
 void main(){
-  Coffee kape = Coffee(type: 'latte', size: 'large');
-  kape.showInfo(); 
+  Animal hayof = Animal(animal: 'dog', breed: 'pomeranian');
+  hayof.showInfo(); 
 }
