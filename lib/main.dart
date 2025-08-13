@@ -1,5 +1,10 @@
 import 'animal.dart';
-void main(){
+import 'phone.dart';
+
+void main() {
   Animal hayof = Animal(animal: 'dog', breed: 'pomeranian');
-  hayof.showInfo(); 
+  hayof.showInfo();
+
+  Phone hehe = Phone(brand: 'vivo', os: 'android');
+  hehe.showInfo();
 }
